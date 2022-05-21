@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  pubsub_leroy:
+    container_name: pubsub_v1
+    image: gcloud/pubsub:v1
+    build: 
+      context: .
+    environment:
+      - PUBSUB_PROJECT_ID=leroy-merlin-123
+    ports:
+      - "8085:8085"
