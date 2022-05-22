@@ -15,7 +15,7 @@ docker ps
 
 ## Salida
 ```
-CONTAINER ID   IMAGE              COMMAND                  CREATED             STATUS             PORTS                    NAMES
+CONTAINER ID   IMAGE                       COMMAND                  CREATED             STATUS             PORTS                    NAMES
 4e1e861b5583   sneyt04/gcloud-pubsub:1.0   "/bin/sh -c './googl…"   About an hour ago   Up About an hour   0.0.0.0:8085->8085/tcp   pubsub_v1
 ```
 
