@@ -64,7 +64,7 @@ class DemoPubsubApplicationTests {
 	/**
 	 * https://cloud.google.com/pubsub/docs/emulator
 	 */
-	@Disabled
+	@Test
 	public void createTopic() {
 		try {
 
