@@ -7,6 +7,6 @@ services:
     build: 
       context: .
     environment:
-      - PUBSUB_PROJECT_ID=leroy-merlin-123
+      - PUBSUB_PROJECT_ID=my-project-1
     ports:
       - "8085:8085"
