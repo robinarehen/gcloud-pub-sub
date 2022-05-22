@@ -1,12 +1,12 @@
 version: '3.8'
 
 services:
-  pubsub:
+  pubsub_leroy:
     container_name: pubsub_v1
     image: gcloud/pubsub:v1
     build: 
       context: .
-    environment:
-      - PUBSUB_PROJECT_ID=my-project-1
+      args:
+        - PUBSUB_PROJECT_ID=my-project-1
     ports:
       - "8085:8085"
