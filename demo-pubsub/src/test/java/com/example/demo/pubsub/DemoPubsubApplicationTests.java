@@ -40,7 +40,7 @@ import io.grpc.ManagedChannelBuilder;
 class DemoPubsubApplicationTests {
 
 	private String hostport;
-	private final String PROJECT_ID = "leroy-merlin-123";
+	private final String PROJECT_ID = "my-project-1";
 	private final String TOPIC_ID = "my-topic-1";
 	private final String SUBCRIPTION_ID = "my-subscription-1";
 
