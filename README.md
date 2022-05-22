@@ -22,5 +22,3 @@ Proyecto en Java con **Spring Boot** en el cual se realiza la conexión al emula
 
 # Asesoría / Problemas
 Puedes escribir a sneyt04@gmail.com
-
-Perfil **<a href="https://es.linkedin.com/in/robin-arellano-4138b5ba" target="_blank">LinkedIn</a>**
