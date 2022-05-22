@@ -19,3 +19,8 @@ Proyecto en Java con **Spring Boot** en el cual se muestra como se realiza la co
 
 ## 3. demo-pubsub-read
 Proyecto en Java con **Spring Boot** en el cual se realiza la conexión al emulador **Pub/Sub** y se realiza la subscripción para leer los mensaje publicados por el proyecto **demo-pubsub**.
+
+# Asesoría / Problemas
+Puedes escribir a sneyt04@gmail.com
+
+Perfil **<a href="https://es.linkedin.com/in/robin-arellano-4138b5ba" target="_blank">LinkedIn</a>**
