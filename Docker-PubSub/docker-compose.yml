@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  pubsub_leroy:
+  pubsub:
     container_name: pubsub_v1
-    image: gcloud/pubsub:v1
+    image: sneyt04/gcloud-pubsub:1.0
     build: 
       context: .
       args:
