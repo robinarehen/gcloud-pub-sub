@@ -128,7 +128,7 @@ class DemoPubsubApplicationTests {
 					.setCredentialsProvider(this.credentialsProvider).build();
 
 			String ms1 = "{\"index\":\"value\"}";
-			String ms2 = "Gcloud pubsub Mensaje 8";
+			String ms2 = "Gcloud PubSub Mensaje 1";
 			Arrays.asList(ms1, ms2).forEach(message -> {
 
 				ByteString data = ByteString.copyFromUtf8(message);
