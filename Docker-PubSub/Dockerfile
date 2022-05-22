@@ -29,7 +29,7 @@ EXPOSE 8085
 # Toda la información de CLOUDSDK_CORE_DISABLE_PROMPTS en: https://cloud.google.com/sdk/gcloud/reference#--quiet
 ENV \
  CLOUDSDK_CORE_DISABLE_PROMPTS=1 \
- PUBSUB_PROJECT_ID='leroy-merlin-123'
+ PUBSUB_PROJECT_ID='my-project-1'
 
 RUN ./google-cloud-sdk/bin/gcloud config set project $PUBSUB_PROJECT_ID
 
